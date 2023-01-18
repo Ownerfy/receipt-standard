@@ -3,6 +3,9 @@ import "./IERC165.sol";
 
 ///
 /// @dev Interface for eip-5570 Receipt Standard
+/// Suggested code for https://eips.ethereum.org/EIPS/eip-5570
+/// Discussion here: https://ethereum-magicians.org/t/idea-standard-digital-receipts-using-erc-721/9908
+/// and here: https://github.com/ethereum/EIPs/pull/5570
 ///
 interface IERC5570 is IERC165 {
     /// ERC165 bytes to add to interface array - set in parent contract
